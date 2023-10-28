@@ -1,0 +1,26 @@
+Fornecedor
+    Nome
+    Contato
+
++------------------------+
+| Bungle | 48 9912156-33 |
++------------------------+
+
+Unidade de medida
+    Nome
+    Sigla
+
++---------------+
+| Gramas | gr |
++---------------+
+
+Produto
+    Fornecedor (fk)
+    Marca
+    Nome
+    Unidade de medida (fk)
+    Quantity
+    
++----------------------------------+
+| Nita | Farinha de Trigo | Gramas |
++----------------------------------+
